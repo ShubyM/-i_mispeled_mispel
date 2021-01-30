@@ -6,4 +6,12 @@ class RoomSerializer(serializers.ModelSerializer):
     model = Room
     fields = ('code', 'full')
 
+class CreateRoomSerializer(serializers.ModelSerializer):
+  class Meta:
+    model = Room
+    # Do we need fields?
+    fields = () 
+
+
+
 
