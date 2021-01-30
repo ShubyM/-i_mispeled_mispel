@@ -44,20 +44,21 @@ html {
 
 #playername {
     position: absolute;
-    left: 10.71%;
-    right: 13.18%;
-    top: 0%;
-    bottom: 63.21%;
+    width: 812px;
+    height: 108px;
+    left: 324px;
+    top: 426px;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 64px;
     line-height: 78px;
-    /* identical to box height */
-
     text-align: center;
-
+    background: #BCE784;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
     color: #513B56;
 }
 
@@ -66,18 +67,37 @@ html {
     width: 466px;
     height: 111px;
     left: 487px;
-    top: 672px;
+    top: 582px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    background: #BCE784;
+    color: #513B56;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
 }
 
-.button {
+#joinroom {
     position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    width: 466px;
+    height: 111px;
+    left: 487px;
+    top: 712px;
 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
     background: #BCE784;
-    border: 1px solid #000000;
+    color: #513B56;
+    border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
 }
