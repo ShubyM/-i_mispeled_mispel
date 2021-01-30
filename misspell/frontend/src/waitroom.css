@@ -1,0 +1,156 @@
+#code {
+    position: absolute;
+    width: 501px;
+    height: 111px;
+    left: 209px;
+    top: 99px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 91px;
+    text-align: center;
+    color: #513B56;
+}
+
+#codebox {
+    position: absolute;
+    width: 501px;
+    height: 111px;
+    left: 730px;
+    top: 85px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 78px;
+    text-align: center;
+    color: #7E7E7E;
+
+    background: #DEF1C6;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+#start {
+    position: absolute;
+    width: 606px;
+    height: 108px;
+    left: 417px;
+    top: 248px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 91px;
+    text-align: center;
+    color: #513B56;  
+ 
+    background: #BCE784;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#menu {
+    position: absolute;
+    width: 290px;
+    height: 65px;
+    left: 575px;
+    top: 868px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #513B56;
+
+    background: #BCE784;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#p1 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 293px;
+    top: 429px;
+}
+
+#p2 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 731px;
+    top: 429px;
+}
+
+#p3 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 293px;
+    top: 534px;
+}
+
+#p4 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 293px;
+    top: 639px;
+}
+
+#p5 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 731px;
+    top: 639px;
+}
+
+#p6 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 293px;
+    top: 744px;
+}
+
+#p7 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 731px;
+    top: 533px;
+    
+}
+
+#p8 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 731px;
+    top: 744px;
+}
+
+.playername {
+    background: #DEF1C6;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+}

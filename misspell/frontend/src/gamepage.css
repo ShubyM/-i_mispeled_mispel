@@ -1,0 +1,182 @@
+#spell {
+    position: absolute;
+    width: 638px;
+    height: 125px;
+    left: 254px;
+    top: 104px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 91px;
+    text-align: center;
+    color: #513B56;
+}
+#playback {
+    position: absolute;
+    width: 202px;
+    height: 125px;
+    left: 984px;
+    top: 84px;
+    background: #513B56;
+    transform: matrix(0.86, -0.45, 0.55, 0.88, 0, 0);
+    background: #BCE784;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+#exsent {
+
+}
+#random {
+
+}
+#enterword {
+
+}
+#empty {
+
+}
+#p1 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 110px;
+    top: 540px;
+}
+#p2 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 110px;
+    top: 644px;
+}
+#p3 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 110px;
+    top: 750px;
+}
+#p4 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 110px;
+    top: 854px;
+}
+#p5 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 801px;
+    top: 540px;
+}
+#p6 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 801px;
+    top: 644px;
+}
+#p7 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 801px;
+    top: 750px;
+}
+#p8 {
+    position: absolute;
+    width: 418px;
+    height: 84px;
+    left: 801px;
+    top: 854px;
+}
+#s1 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 548px;
+    top: 540px;
+}
+#s2 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 548px;
+    top: 644px;
+}
+#s3 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 548px;
+    top: 750px;
+}
+#s4 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 548px;
+    top: 856px;    
+}
+#s5 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 1239px;
+    top: 540px;
+}
+#s6 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 1239px;
+    top: 644px;
+}
+#s7 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 1239px;
+    top: 750px;
+}
+#s8 {
+    position: absolute;
+    width: 91px;
+    height: 84px;
+    left: 1239px;
+    top: 856px;
+}
+
+.player {
+    background: #DEF1C6;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: center;
+}
+
+.score {
+    background: #DEF1C6;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 73px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.example {}

@@ -19,10 +19,7 @@ html {
     font-size: 90px;
     line-height: 110px;
     text-align: center;
-
     color: #513B56;
-
-    border: 1px solid #000000;
 }
 
 #description {
@@ -48,18 +45,6 @@ html {
     height: 108px;
     left: 324px;
     top: 426px;
-
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 78px;
-    text-align: center;
-    background: #BCE784;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 5px;
-    color: #513B56;
 }
 
 #waitroom {
@@ -68,18 +53,6 @@ html {
     height: 111px;
     left: 487px;
     top: 582px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 64px;
-    line-height: 78px;
-    text-align: center;
-    background: #BCE784;
-    color: #513B56;
-    border: 2px solid #000000;
-    box-sizing: border-box;
-    border-radius: 20px;
 }
 
 #joinroom {
@@ -88,7 +61,9 @@ html {
     height: 111px;
     left: 487px;
     top: 712px;
+}
 
+.interact {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -101,4 +76,3 @@ html {
     box-sizing: border-box;
     border-radius: 20px;
 }
-
