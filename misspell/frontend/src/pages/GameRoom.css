@@ -1,4 +1,12 @@
-#spell {
+.GameRoom html {
+    position: relative;
+    width: 100%;
+    height: 100%;  
+  
+  background: linear-gradient(180deg, #5DD39E 0%, rgba(255, 255, 255, 0) 100%), #348AA7;
+}
+
+.GameRoom #spell {
     position: absolute;
     width: 638px;
     height: 125px;
@@ -13,125 +21,192 @@
     text-align: center;
     color: #513B56;
 }
-#playback {
+
+.GameRoom #playback {
     position: absolute;
+    height: 114.3px;
     width: 202px;
-    height: 125px;
-    left: 984px;
-    top: 84px;
-    background: #513B56;
-    transform: matrix(0.86, -0.45, 0.55, 0.88, 0, 0);
+    right: 25%;
+    top: 7.8%;
+    
     background: #BCE784;
     border: 1px solid #000000;
     box-sizing: border-box;
 }
 
-#p1 {
+.GameRoom .example {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #513B56;
+}
+
+.GameRoom #enterword {
+    position: absolute;
+    width: 341px;
+    height: 37px;
+    left: 556px;
+    top: 325px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #513B56;
+}
+
+.GameRoom #empty {
+    position: absolute;
+    width: 750px;
+    height: 125px;
+    left: 345px;
+    top: 362px;
+
+    background: #BCE784;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.GameRoom #exsent {
+    position: absolute;
+    width: 244px;
+    height: 64px;
+    left: 183px;
+    top: 229px;
+}
+
+.GameRoom #random {
+    position: absolute;
+    width: 802px;
+    height: 64px;
+    left: 456px;
+    top: 229px;
+}
+
+.GameRoom #p1 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 110px;
     top: 540px;
 }
-#p2 {
+
+.GameRoom #p2 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 110px;
     top: 644px;
 }
-#p3 {
+.GameRoom #p3 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 110px;
     top: 750px;
 }
-#p4 {
+
+.GameRoom #p4 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 110px;
     top: 854px;
 }
-#p5 {
+
+.GameRoom #p5 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 801px;
     top: 540px;
 }
-#p6 {
+.GameRoom #p6 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 801px;
     top: 644px;
 }
-#p7 {
+.GameRoom #p7 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 801px;
     top: 750px;
 }
-#p8 {
+.GameRoom #p8 {
     position: absolute;
     width: 418px;
     height: 84px;
     left: 801px;
     top: 854px;
 }
-#s1 {
+.GameRoom #s1 {
     position: absolute;
     width: 91px;
     height: 84px;
     left: 548px;
     top: 540px;
 }
-#s2 {
+
+.GameRoom #s2 {
     position: absolute;
     width: 91px;
     height: 84px;
     left: 548px;
     top: 644px;
 }
-#s3 {
+
+.GameRoom #s3 {
     position: absolute;
     width: 91px;
     height: 84px;
     left: 548px;
     top: 750px;
 }
-#s4 {
+
+.GameRoom #s4 {
     position: absolute;
     width: 91px;
     height: 84px;
     left: 548px;
     top: 856px;    
 }
-#s5 {
+
+.GameRoom #s5 {
     position: absolute;
     width: 91px;
     height: 84px;
     left: 1239px;
     top: 540px;
 }
-#s6 {
+
+.GameRoom #s6 {
     position: absolute;
     width: 91px;
     height: 84px;
     left: 1239px;
     top: 644px;
 }
-#s7 {
+
+.GameRoom #s7 {
     position: absolute;
     width: 91px;
     height: 84px;
     left: 1239px;
     top: 750px;
 }
-#s8 {
+.GameRoom #s8 {
     position: absolute;
     width: 91px;
     height: 84px;
@@ -139,7 +214,7 @@
     top: 856px;
 }
 
-.player {
+.GameRoom .player {
     background: #DEF1C6;
     border: 1px solid #000000;
     box-sizing: border-box;
@@ -153,7 +228,7 @@
     text-align: center;
 }
 
-.score {
+.GameRoom .score {
     background: #DEF1C6;
     border: 1px solid #000000;
     box-sizing: border-box;

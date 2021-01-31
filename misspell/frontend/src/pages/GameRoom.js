@@ -5,9 +5,9 @@ function GameRoom() {
     return (
         <div className="GameRoom">
             <div id="spell">Spell the Word:</div>
-            <div id="playback">Play</div>
+            <button id="playback"><span class="iconify" data-icon="openmoji:play-button" data-inline="false" height="105px" width="105px"></span></button>
             <div class="example" id="exsent">Example:</div>
-            <div class="example" id="random">random</div>
+            <div class="example" id="random">random sentence example fit</div>
             <div id="enterword">Enter your word below</div>
             <div id="empty"></div>
             <div class="player" id="p1">player 1</div>

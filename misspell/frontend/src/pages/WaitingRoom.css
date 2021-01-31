@@ -1,11 +1,4 @@
-html {
-    position: relative;
-    width: 100%;
-    height: 100%;  
-    background: linear-gradient(180deg, #5DD39E 0%, rgba(255, 255, 255, 0) 100%), #348AA7;
-}
-
-#code {
+.WaitingRoom #code {
     position: absolute;
     width: 501px;
     height: 111px;
@@ -21,7 +14,7 @@ html {
     color: #513B56;
 }
 
-#codebox {
+.WaitingRoom #codebox {
     position: absolute;
     width: 501px;
     height: 111px;
@@ -41,7 +34,7 @@ html {
     box-sizing: border-box;
 }
 
-#start {
+.WaitingRoom #start {
     position: absolute;
     width: 606px;
     height: 108px;
@@ -62,7 +55,7 @@ html {
     border-radius: 20px;
 }
 
-#menu {
+.WaitingRoom #menu {
     position: absolute;
     width: 290px;
     height: 65px;
@@ -83,7 +76,7 @@ html {
     border-radius: 20px;
 }
 
-#p1 {
+.WaitingRoom #p1 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -91,7 +84,7 @@ html {
     top: 429px;
 }
 
-#p2 {
+.WaitingRoom #p5 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -99,7 +92,7 @@ html {
     top: 429px;
 }
 
-#p3 {
+.WaitingRoom #p2 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -107,7 +100,7 @@ html {
     top: 534px;
 }
 
-#p4 {
+.WaitingRoom #p3 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -115,7 +108,7 @@ html {
     top: 639px;
 }
 
-#p5 {
+.WaitingRoom #p7 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -123,7 +116,7 @@ html {
     top: 639px;
 }
 
-#p6 {
+.WaitingRoom #p4 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -131,7 +124,7 @@ html {
     top: 744px;
 }
 
-#p7 {
+.WaitingRoom #p6 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -140,7 +133,7 @@ html {
     
 }
 
-#p8 {
+.WaitingRoom #p8 {
     position: absolute;
     width: 418px;
     height: 84px;
@@ -148,7 +141,7 @@ html {
     top: 744px;
 }
 
-.playername {
+.WaitingRoom .playername {
     background: #DEF1C6;
     border: 1px solid #000000;
     box-sizing: border-box;

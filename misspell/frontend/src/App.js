@@ -6,10 +6,10 @@ function App() {
     return (
         <div className="App">
             <div id="title">
-                    i misepeled mispel
+                    i mispeled mispel
             </div>
             <div id="description">HackUCI project by Jimmy, Sunbun, Shubrangle<br></br>
-                Purpose (welcome): <br></br>How to start <br></br>Rules: 
+                Welcome to a fun quarantine spelling bee with your friends!<br></br>How to start: Click the play button to hear the word.<br></br>Rules: Do not search up the word spelling!
                 <br></br>Have fun you inconceiveable noosance
             </div>
             <input class="interact" id="playername" type="text" placeholder="enter player name" name="name"></input>
