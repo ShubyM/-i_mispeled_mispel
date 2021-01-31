@@ -6,8 +6,8 @@ export default class EnterRoom extends Component {
         return (
             <div className="EnterRoom">
                 <div id="enter">Enter the Room Code:</div>
-                <div id="code">code</div>
-                <div id="join">Join Room</div>
+                <input id="code" type="text" placeholder="CODE"></input>
+                <button id="join">Join Room</button>
             </div>
         );
     }

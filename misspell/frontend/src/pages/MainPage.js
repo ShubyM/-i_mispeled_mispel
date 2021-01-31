@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import "./MainPage.css";
 
 export default class MainPage extends Component {
+
+    
+
     render() {
         return (
             <div className="MainPage">
@@ -13,8 +17,8 @@ export default class MainPage extends Component {
                     <br></br>Have fun you inconceiveable noosance
                 </div>
                 <input class="interact" id="playername" type="text" placeholder="enter player name" name="name"></input>
-                <button class="interact" id="waitroom">Create Room</button> 
-                <button class="interact" id="joinroom">Join Room</button>
+                <Link to="/room" class="interact" id="waitroom">Create Room</Link> 
+                <Link to="/join" class="interact" id="joinroom">Join Room</Link>
             </div>
         );
     }
