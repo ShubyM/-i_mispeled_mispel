@@ -1,32 +1,52 @@
+.grid {
+    display: grid;
+    grid-template-columns: 15% 28% 7% 7% 28% 15%;
+    grid-template-rows: 15% 10% 10% 40% 10% 15%;
+}
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;  
+  
+  background: linear-gradient(180deg, #5DD39E 0%, rgba(255, 255, 255, 0) 100%), #348AA7;
+}
 #code {
     position: absolute;
-    width: 501px;
-    height: 111px;
-    left: 209px;
-    top: 99px;
+    width: 379px;
+    height: 108px;
+    left: 15%;
+    top: 7.5%;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 75px;
+    font-size: 56px;
     line-height: 91px;
     text-align: center;
+    padding-left: 15px;
+    padding-top: 7px;
     color: #513B56;
 }
 
 #codebox {
     position: absolute;
-    width: 501px;
-    height: 111px;
-    left: 730px;
-    top: 85px;
+    width: 370px;
+    height: 108px;
+    right: 15%;
+    top: 7.5%;
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 56px;
     line-height: 78px;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
     color: #7E7E7E;
 
     background: #DEF1C6;
@@ -36,10 +56,11 @@
 
 #start {
     position: absolute;
-    width: 606px;
-    height: 108px;
-    left: 417px;
-    top: 248px;
+    width: 70%;
+    height: 8.5%;
+    top: 20%;
+    grid-column: 2 / 6;
+    grid-row: 3 / 4;
 
     font-family: Montserrat;
     font-style: normal;
@@ -47,6 +68,7 @@
     font-size: 75px;
     line-height: 91px;
     text-align: center;
+    padding-top: 7px;
     color: #513B56;  
  
     background: #BCE784;
@@ -57,9 +79,9 @@
 
 #menu {
     position: absolute;
-    width: 290px;
-    height: 65px;
-    left: 575px;
+    width: 400px;
+    height: 6%;
+    left: 36.75%;
     top: 868px;
 
     font-family: Montserrat;
@@ -68,6 +90,7 @@
     font-size: 40px;
     line-height: 49px;
     text-align: center;
+    padding-top: 10px;
     color: #513B56;
 
     background: #BCE784;
@@ -88,8 +111,8 @@
     position: absolute;
     width: 418px;
     height: 84px;
-    left: 731px;
-    top: 429px;
+    left: 293px;
+    top: 534px;
 }
 
 #p3 {
@@ -97,7 +120,7 @@
     width: 418px;
     height: 84px;
     left: 293px;
-    top: 534px;
+    top: 639px;
 }
 
 #p4 {
@@ -105,7 +128,7 @@
     width: 418px;
     height: 84px;
     left: 293px;
-    top: 639px;
+    top: 744px;
 }
 
 #p5 {
@@ -113,15 +136,15 @@
     width: 418px;
     height: 84px;
     left: 731px;
-    top: 639px;
+    top: 429px;
 }
 
 #p6 {
     position: absolute;
     width: 418px;
     height: 84px;
-    left: 293px;
-    top: 744px;
+    left: 731px;
+    top: 534px;
 }
 
 #p7 {
@@ -129,7 +152,7 @@
     width: 418px;
     height: 84px;
     left: 731px;
-    top: 533px;
+    top: 639px;
     
 }
 
@@ -153,4 +176,5 @@
     font-size: 60px;
     line-height: 73px;
     text-align: center;
+    color: #513B56;
 }
