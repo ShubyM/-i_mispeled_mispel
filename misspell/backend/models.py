@@ -9,16 +9,19 @@ def generate_code():
       break
   return code    
 
+class Room(models.Model):
+  code = models.CharField(max_length=6, default=generate_code, unique=True)
+  host = models.CharField(max_length=80, unique=True, default="")
+  host_name = models.CharField(max_length=11, default="", unique=True)
+  full = models.BooleanField(default=False)
+  
 class Player(models.Model):
   # name can be used as ID
   name = models.CharField(max_length=11, default="", unique=True)
-  score = models.IntegerField(default = 0)
+  score = models.IntegerField(default=0)
+  room = models.ForeignKey(Room, on_delete=models.CASCADE, default=None)
 
-class Room(models.Model):
-  code = models.CharField(max_length=6, default="", unique=True)
-  host = models.CharField(max_length=80, unique=True)
-  full = models.BooleanField(default=False)
-  players = models.ManyToManyField(Player)
+
 
 
 

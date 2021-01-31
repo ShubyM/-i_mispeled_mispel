@@ -1,27 +1,22 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
-import MainPage from "./pages/MainPage.js"
-import WaitingRoom from "./pages/WaitingRoom.js"
-import GameRoom from "./pages/GameRoom.js"
-import EnterRoom from "./pages/EnterRoom.js"
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
-import { getElementError } from "@testing-library/react";
+import React from 'react';
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import "./App.css";
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
+function App() {
     return (
-      <Router>
-        <Switch>
-          <Route exact path="/" component={MainPage}></Route>
-          <Route path="/room" component={WaitingRoom}></Route>
-          <Route path="/game" component={GameRoom}></Route>
-          <Route path="/join" component={EnterRoom}></Route>
-        </Switch>
-      </Router>
-    )
-  }
+        <div className="App">
+            <div id="title">
+                    i misepeled mispel
+            </div>
+            <div id="description">HackUCI project by Jimmy, Sunbun, Shubrangle<br></br>
+                Purpose (welcome): <br></br>How to start <br></br>Rules: 
+                <br></br>Have fun you inconceiveable noosance
+            </div>
+            <input class="interact" id="playername" type="text" placeholder="enter player name" name="name"></input>
+            <Link to="/room" class="interact" id="waitroom">Create Room</Link> 
+            <Link to="/join" class="interact" id="joinroom">Join Room</Link>
+        </div>
+    );
 }
+
+export default App;
