@@ -14,6 +14,9 @@ class CreateRoomSerializer(serializers.ModelSerializer):
 
 class WordSerializer(serializers.Serializer):
   count = serializers.IntegerField()
+  
+
+
 
 
 
