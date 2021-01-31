@@ -25,18 +25,7 @@
     border: 1px solid #000000;
     box-sizing: border-box;
 }
-#exsent {
 
-}
-#random {
-
-}
-#enterword {
-
-}
-#empty {
-
-}
 #p1 {
     position: absolute;
     width: 418px;
@@ -178,5 +167,3 @@
 
     color: #000000;
 }
-
-.example {}
