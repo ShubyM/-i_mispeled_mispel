@@ -1,3 +1,10 @@
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;  
+    background: linear-gradient(180deg, #5DD39E 0%, rgba(255, 255, 255, 0) 100%), #348AA7;
+}
+
 #code {
     position: absolute;
     width: 501px;
