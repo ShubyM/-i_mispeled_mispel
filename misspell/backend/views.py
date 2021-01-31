@@ -1,4 +1,5 @@
 import random
+import requests
 from .models import Room, Player
 from .words import WORDS
 from .serializers import RoomSerializer, CreateRoomSerializer, WordSerializer
@@ -7,12 +8,16 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 
+BASE = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/" 
+KEY = "6f4ec53e-bbd2-4f26-b9d5-1370b625ea47"
+
 class GetWordView(APIView):
   serializer_class = WordSerializer
-
   def get(self, request, format=None):
-    return Response(random.choice(WORDS), status=status.HTTP_200_OK)
-
+    word = random.choice(WORDS)
+    definition = requests.get(BASE + word + "?key=" + KEY).json()
+    ret = {'word' : word, 'defintion' : definition}
+    return Response(ret, status=status.HTTP_200_OK)
 
 class RoomView(generics.CreateAPIView):
   queryset = Room.objects.all()
